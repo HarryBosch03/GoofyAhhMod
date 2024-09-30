@@ -158,8 +158,8 @@ dependencies {
 
     // RFTools Dimensions + Dependencies
     //implementation fg.deobf("curse.maven:rftools-dimensions-240950:5579456")
-    //implementation "curse.maven:mcjtylib-233105:5763587"
-    //implementation fg.deobf("curse.maven:rftools-base-326041:5613272")
+    implementation "curse.maven:mcjtylib-233105:5763587"
+    implementation fg.deobf("curse.maven:rftools-base-326041:5613272")
 
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
